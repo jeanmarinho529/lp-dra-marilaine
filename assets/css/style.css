@@ -255,7 +255,6 @@ footer .info,
     width: 100%;
     aspect-ratio: 16 / 5;
     margin-bottom: -100px;
-
 }
 
 .local iframe {
@@ -452,6 +451,11 @@ footer .info .text {
     .about {
         background-size: cover;
     }
+
+    .google-maps {
+        aspect-ratio: 1 / 1;
+    }
+    
 }
 
 @media (max-width: 991px) {
