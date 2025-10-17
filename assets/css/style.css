@@ -1,0 +1,496 @@
+.hover-scale {
+    transition: transform 0.6s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary {
+    border: 0;
+}
+
+
+.main header .nav-link,
+.main .btn-outline-primary,
+.main .btn-primary {
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 28px;
+
+    border-radius: 24px;
+    border: 0;
+}
+
+.main header .btn-primary {
+    text-align: center;
+
+    font-family: "Eina03-Bold";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main header .nav-link {
+    color: #AC8D60;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main .btn-primary {
+    background: #5A5A5A;
+}
+
+
+.main .btn-outline-primary {
+    border: 1px solid #AC8D60;
+    color: #AC8D60;
+    transition: color 0.5s ease !important;
+}
+
+.main .btn-outline-primary:hover {
+    color: #fff;
+}
+
+
+.main {
+    background-image: url("../images/background-main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about {
+    background-color: #D8D4C9;
+    background-image: url("../images/background-about.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+
+.about .title {
+    color: #5D5D5D !important;
+
+    font-family: "Eina03-Bold";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.about .subtitle {
+    color: #606569 !important;
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.about p {
+    color: #808080;
+    font-family: "Eina03-Bold";
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+
+.benefits .btn-primary,
+.about .btn-primary {
+    padding: 10px 24px;
+    border-radius: 24px;
+    background: #404040;
+
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.flow .background,
+.local .background,
+.treatments .background {
+    background-image: url("../images/background-range.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-size: cover;
+
+    height: 9vh;
+}
+
+.local .background {
+    background-image: url("../images/background-range-large.png");
+    height: 18vh;
+}
+
+.treatments .title {
+    font-family: "Eina03-Bold";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.treatments .subtitle {
+    text-align: center;
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.treatments .card {
+    border-radius: 100px 100px 90px 0;
+}
+
+.treatments .card-title {
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.treatments .card-text {
+    font-family: "Eina03-Regular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer .info,
+.treatments .card-2 {
+    background: #5A5A5A;
+}
+
+.treatments .card-3 {
+    background: #D9D9D9;
+}
+
+.treatments .card-3 .card-title,
+.treatments .card-3 .card-text,
+.treatments .card-4 .card-title,
+.treatments .card-4 .card-text {
+    color: #5A5A5A;
+}
+
+.treatments .card-4 {
+    background: #D9D9D9;
+}
+
+.treatments .card-6 {
+    background: #404040;
+}
+
+.treatments .btn-primary {
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 28px;
+
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 24px;
+}
+
+
+.benefits .card-title {
+    text-align: center;
+    font-family: "Eina03-Bold";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.benefits .card-text {
+    color: #5E5E5E;
+    text-align: center;
+    font-family: "Eina03-Regular";
+    font-size: 13px;
+
+    line-height: 18px;
+}
+
+.review {
+    background-color: #5E5E5E;
+    background-image: url("../images/background-review.png");
+    background-position: center right;
+
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.review .title {
+    font-family: "Eina03-Bold";
+    font-size: 40px;
+    line-height: 48px;
+}
+
+
+.review .subtitle {
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.card-review .title {
+    color: #212424;
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 16.5px;
+}
+
+.card-review p {
+    color: #212424;
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.google-maps {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 5;
+    margin-bottom: -100px;
+
+}
+
+.local iframe {
+    border-radius: 50px 4px;
+}
+
+.local .background-line {
+
+    background-image: url("../images/background-line.png");
+    background-position: center;
+
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+
+    height: 3vh;
+}
+
+.local .title {
+    color: #AC8D60 !important;
+
+    font-family: "Eina03-Bold";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+.local .subtitle {
+    color: #5A5A5A;
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.local .subtitle-address {
+    color: var(--Cinza-escuro, #606569);
+    text-align: center;
+
+    font-family: "Eina03-Regular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.appointment {
+    background-color: #AC8D60;
+
+    background-image: url("../images/background-appointment.png");
+    background-position: center;
+
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+.appointment .title {
+    font-family: "Eina03-Bold";
+    font-size: 32px;
+
+    line-height: 40px;
+}
+
+.subtitle {
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.appointment .btn-primary {
+    display: inline-flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Cor-2, #5A5A5A);
+
+    font-family: "Eina03-Bold";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+footer .title {
+    color: #AC8D60;
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+footer .text {
+    color: #606569;
+}
+
+footer .text,
+footer .info .text {
+    font-family: "Eina03-Regular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.flow .title {
+    color: #AC8D60 !important;
+    font-family: "Eina03-Bold";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.flow .subtitle {
+    color: #606569;
+    text-align: center;
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.flow .btn-primary {
+    display: inline-flex;
+    height: 55.603px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 24px;
+
+    font-family: "Eina03-Bold";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.flow .card .title {
+    color: #fff !important;
+    font-family: "Eina03-Bold";
+    font-size: 24px;
+    line-height: 35.5px;
+}
+
+.flow .card .text {
+    color: #5E5E5E;
+    font-family: "Eina03-Regular";
+    font-size: 20px;
+    line-height: normal;
+}
+
+.flow .card .top {
+    border-radius: 0 50px 0 0;
+    background: #5E5E5E;
+}
+
+.flow .card {
+    border-radius: 50px 50px 0 50px;
+}
+
+.flow .card .border {
+    border-color: #5E5E5E !important;
+}
+
+
+.flow .card-step-down-4::after,
+.flow .card-step-left::after,
+.flow .card-step-down::after,
+.flow .card-step-right::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 30px;
+    background-image: url('../icons/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+}
+
+.flow .card-step-left::after {
+    background-image: url('../icons/left-arrow.svg');
+}
+
+.flow .card-step-down::after {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 80px;
+    background-image: url('../icons/down-arrow.svg');
+}
+
+.flow .card-step-down-4::after {
+    background-image: None;
+}
+
+
+@media (max-width: 760px) {
+    .about {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .flow .card-step-left-6::after {
+        background-image: None !important;
+    }
+
+    .flow .card-step-down-4::after,
+    .flow .card-step-left::after,
+    .flow .card-step-down::after,
+    .flow .card-step-right::after {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 80px;
+        background-image: url('../icons/down-arrow.svg');
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .w-md-75 {
+        width: 75%;
+    }
+
+    .about {
+        background-size: 45% 100%;
+    }
+
+    .review {
+        background-size: 55% 55%;
+    }
+}
+
+@media (min-width: 992px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+}
